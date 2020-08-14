@@ -15,19 +15,24 @@ class _CartScreenState extends State<CartScreen> {
         child: Column(
           children: <Widget>[
             Padding(
-              padding: const EdgeInsets.only(bottom: 10),
+              padding: const EdgeInsets.only(top: 45, bottom: 20, left: 33),
               child: Row(
                 children: <Widget>[
                   Text(
                     "Cart",
                     style: TextStyle(
                         color: Colors.white,
-                        fontWeight: FontWeight.w500,
-                        fontSize: 21),
+                        fontWeight: FontWeight.bold,
+                        fontSize: 30),
                   ),
                 ],
               ),
             ),
+            Row(
+              children: <Widget>[
+
+              ],
+            )
           ],
         ),
       ),

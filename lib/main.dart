@@ -14,12 +14,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: PageViewScreen.id,
+      initialRoute: CartScreen.id,
       routes: {
         HomeScreen.id: (context) => HomeScreen(),
         DetailsScreen.id: (context) => DetailsScreen(),
         PageViewScreen.id: (context) => PageViewScreen(),
-        CartScreen.id:(context)=>CartScreen(),
+        CartScreen.id: (context) => CartScreen(),
       },
     );
   }
