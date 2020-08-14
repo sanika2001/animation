@@ -40,7 +40,8 @@ class _DetailsScreenState extends State<DetailsScreen> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   Hero(
-                    tag: isPressed ? "cart$count" : "2",/*          change       here     */
+                    tag: isPressed ? "cart$count" : "2",
+                    /*          change       here     */
                     child: CachedNetworkImage(
                       height: 200,
                       imageUrl:
@@ -153,12 +154,14 @@ class _DetailsScreenState extends State<DetailsScreen> {
                       height: 40,
                       color: Colors.black54,
                     ),
-                    GestureDetector(          /*          Change       here     */
+                    GestureDetector(
+                      /*          Change       here     */
                       onTap: () {
                         timeDilation = 2;
                         setState(() {
                           isPressed = true;
                           count++;
+                          num++;
                           cartList.add(
                               "https://www.gourmet-versand.com/img_article_v3/101040-fusilli-le-classiche-durum-wheat-semolina-pasta-rummo.jpg");
                         });
