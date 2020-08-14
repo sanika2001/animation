@@ -2,11 +2,11 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:animation/Components/PastaCard.dart';
-import 'package:animation/Screens/DetailsScreen.dart';
+import 'package:animation/Screens/DetailsScreen.dart';/*          New       import(in the main.dart also)     */
 import 'package:page_transition/page_transition.dart';
 
 int count = -1;
-List<String> cartList = [];
+List<String> cartList = [];/*          New       variables     */
 
 class HomeScreen extends StatefulWidget {
   static const String id = '/home';
@@ -62,7 +62,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           ],
                         ),
                       ),
-                      Container(
+                      Container(          /*          New       container     */
                         height: 50,
                         width: 250,
                         child: Padding(
@@ -99,7 +99,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           radius: 25,
                           backgroundColor: Colors.orangeAccent,
                           child: Text(
-                            (count++).toString(),
+                            (count++).toString(),/*          count++     */
                             style: TextStyle(color: Colors.black),
                           ),
                         ),
@@ -140,7 +140,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         qty: "500g",
                         tag: "2",
                         onPress: () {
-                          Navigator.push(
+                          Navigator.push(/*          Page       Transition     */
                             context,
                             PageTransition(
                               type: PageTransitionType.fade,

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:animation/Screens/HomeScreen.dart';
 import 'Screens/DetailsScreen.dart';
-import 'package:flutter/scheduler.dart' show timeDilation;
+import 'package:flutter/scheduler.dart' show timeDilation;/*          New       import     */
 
 void main() {
   runApp(MyApp());
