@@ -36,7 +36,7 @@ class _CartScreenState extends State<CartScreen> {
               children: <Widget>[
                 CartCard(
                   img:
-                      "https://www.seggiano.com/core/media/media.nl?id=51272&c=437323&h=c398070e1dcb84dd4a23",
+                      "https://target.scene7.com/is/image/Target/GUEST_916bfbc6-5426-484e-954e-009f99ea8fbb?wid=488&hei=488&fmt=pjpeg",
                   name: "Newman's Own Pasta\nSauce Socarooni",
                   price: "\$4.99",
                 ),

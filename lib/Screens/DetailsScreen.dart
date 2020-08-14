@@ -4,6 +4,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:animation/Screens/HomeScreen.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:page_transition/page_transition.dart';
+import 'package:animation/Screens/PageViewScreen.dart';
 
 class DetailsScreen extends StatefulWidget {
   static const String id = '/details';
@@ -163,7 +164,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                           cartList.add(
                               "https://www.gourmet-versand.com/img_article_v3/101040-fusilli-le-classiche-durum-wheat-semolina-pasta-rummo.jpg");
                         });
-                        Navigator.pushNamed(context, HomeScreen.id);
+                        Navigator.pushNamed(context, PageViewScreen.id);
                       },
                       child: Card(
                         shape: RoundedRectangleBorder(
