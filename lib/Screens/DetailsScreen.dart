@@ -41,7 +41,6 @@ class _DetailsScreenState extends State<DetailsScreen> {
                 children: <Widget>[
                   Hero(
                     tag: isPressed ? "cart$count" : "2",
-                    /*          change       here     */
                     child: CachedNetworkImage(
                       height: 200,
                       imageUrl:
@@ -155,7 +154,6 @@ class _DetailsScreenState extends State<DetailsScreen> {
                       color: Colors.black54,
                     ),
                     GestureDetector(
-                      /*          Change       here     */
                       onTap: () {
                         timeDilation = 2;
                         setState(() {

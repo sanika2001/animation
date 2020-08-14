@@ -2,12 +2,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:animation/Components/PastaCard.dart';
-import 'package:animation/Screens/DetailsScreen.dart'; /*          New       import(in the main.dart also)     */
+import 'package:animation/Screens/DetailsScreen.dart';
 import 'package:page_transition/page_transition.dart';
 
 int count = -1;
 int num = 0;
-List<String> cartList = []; /*          New       variables     */
+List<String> cartList = [];
 
 class HomeScreen extends StatefulWidget {
   static const String id = '/home';
