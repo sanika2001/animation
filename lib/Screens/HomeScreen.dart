@@ -64,7 +64,6 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                       ),
                       Container(
-                        /*          New       container     */
                         height: 50,
                         width: 250,
                         child: Padding(
@@ -102,7 +101,6 @@ class _HomeScreenState extends State<HomeScreen> {
                           backgroundColor: Colors.orangeAccent,
                           child: Text(
                             num.toString(),
-                            /*          count++     */
                             style: TextStyle(color: Colors.black),
                           ),
                         ),
