@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:animation/Screens/HomeScreen.dart';
+import 'Screens/DetailsScreen.dart';
+import 'package:flutter/scheduler.dart' show timeDilation;
 
 void main() {
   runApp(MyApp());
@@ -13,6 +15,7 @@ class MyApp extends StatelessWidget {
       initialRoute: HomeScreen.id,
       routes: {
         HomeScreen.id: (context) => HomeScreen(),
+        DetailsScreen.id: (context) => DetailsScreen(),
       },
     );
   }
